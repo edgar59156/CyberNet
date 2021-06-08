@@ -87,8 +87,9 @@ ul{
     margin: 10px 0px;
 }
 .descuentosCards img{
+    
     width: 100%;
-    height: 100px;
+    height: 70%;
 }
 .descuentosCards h3{
     font-size: 20px;
