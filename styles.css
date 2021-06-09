@@ -55,18 +55,6 @@ ul{
     flex: 1;
     margin-left: 20px;
 }
-
-.menu-btn
-{
-    position: absolute;
-    cursor: pointer;
-    top: 15px;
-    right: 30px;
-    display: none;
-    z-index: 2;
-    
-}
-
 /*Shocase*/
 .ShowCase{
 
@@ -118,7 +106,68 @@ ul{
     text-decoration: underline;
 }
 
+/*Noticas*/
+.ShowCase2{
 
+    width: 100%;
+    height: 550px;
+    background: url('./img/ryzen.jpg') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: flex-end;
+}
+/*Social*/
+.social{
+    margin: 50px;
+
+}
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+    margin: 30px;
+}
+.links a i{
+    font-size: 3rem;
+}
+/*Links*/
+.links_extra{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+.contenedorlinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contenedorlinks ul{
+    margin: 0 auto;
+}
+.contenedorlinks ul li{
+    line-height: 2;
+}
+.copy{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
 .ShowCase2{
 
     width: 100%;
@@ -207,65 +256,5 @@ ul{
 {
     width: 80%;
 } 
-
-/*Social*/
-.social{
-    margin: 50px;
-
-}
-.social p{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.links a{
-    margin: 30px;
-}
-.links a i{
-    font-size: 3rem;
-}
-/*Links*/
-.links_extra{
-    background: #2f3640;
-    color: #616161;
-    font-size: 12px;
-    padding: 35px 0;
-}
-.contenedorlinks{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: center;
-}
-.contenedorlinks ul{
-    margin: 0 auto;
-}
-.contenedorlinks ul li{
-    line-height: 2;
-}
-.copy{
-    background: #2f3640;
-    color: #616161;
-    font-size: 12px;
-    padding: 20px 0;
-    text-align: center;
-    padding-bottom: 20px;
-
-@media (max-width: 700px) {
-
-    .descuentosCards{
-        grid-template-columns: repeat(1,1fr);
-    }
     
-=======
-
 }
-}
-}
-
