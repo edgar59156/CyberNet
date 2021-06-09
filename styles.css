@@ -61,7 +61,7 @@ ul{
     width: 100%;
     height: 550px;
     background: url('./img/amd.jpg') no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ ul{
     width: 100%;
     height: 550px;
     background: url('./img/ryzen.jpg') no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -167,4 +167,11 @@ ul{
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
+}
+@media (max-width: 700px) {
+
+    .descuentosCards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
