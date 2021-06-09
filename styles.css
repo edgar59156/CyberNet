@@ -131,7 +131,6 @@ ul{
     align-items: center ;
     justify-content: flex-end;
 }
-<<<<<<< HEAD
 /*NoticasCards*/
 .NoticiasCards{
     display: grid;
@@ -209,7 +208,6 @@ ul{
     width: 80%;
 } 
 
-=======
 /*Social*/
 .social{
     margin: 50px;
@@ -258,5 +256,5 @@ ul{
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
->>>>>>> 6c88217dcc1e2e458027ad03f437d7f6702e56f8
+}
 }
