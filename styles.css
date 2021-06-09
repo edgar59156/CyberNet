@@ -140,3 +140,31 @@ ul{
 .links a i{
     font-size: 3rem;
 }
+/*Links*/
+.links_extra{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+.contenedorlinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contenedorlinks ul{
+    margin: 0 auto;
+}
+.contenedorlinks ul li{
+    line-height: 2;
+}
+.copy{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
